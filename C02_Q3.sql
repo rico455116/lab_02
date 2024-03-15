@@ -1,0 +1,4 @@
+ALTER TABLE Shohin
+ADD COLUMN `string` VARCHAR(255) DEFAULT '商品' AFTER shohin_id,
+ADD COLUMN `number` INT DEFAULT 38 AFTER `string`,
+ADD COLUMN `s_date` DATE DEFAULT '2009-02-24' AFTER `number`;
